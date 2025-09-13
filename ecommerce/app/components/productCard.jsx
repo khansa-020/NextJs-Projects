@@ -18,7 +18,7 @@ export default function ProductCard({ product }) {
       <p className="text-gray-600">${product.price}</p>
       <button
         onClick={addToCart}
-        className="mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        className="mt-3 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-500"
       >
         {added ? "Added" : "Add to Cart"}
       </button>
